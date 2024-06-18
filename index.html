@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Matters - IT Consultancy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwMCIgaGVpZ2h0PSI0MDAiIHZpZXdCb3g9IjAgMCAxNTAgNDAwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGQ9Ik0wIDBoMTUwdjQwMEgweiIgZmlsbD0iI0Y0RjRGNCIvPgogIDxwYXRoIGQ9Ik0wIDBoMTUwVjE3NUgweiIgZmlsbD0iI0ZGQyIvPgogIDxwYXRoIGQ9Ik0wIDBoMTUwVjEwMEgweiIgZmlsbD0iI0Y0RjRGNCIvPgogIDxwYXRoIGQ9Ik0wIDBoMTUwVjQwaDB6IiBmaWxsPSIjRkZDQUFBIi8+Cjwvc3ZnPgo=') no-repeat center center/cover;
+            text-align: center;
+            color: #000; /* Black text for readability */
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .container {
+            padding: 20px 0;
+        }
+        .box {
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .box svg {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        #contact {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        #contact a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Execution Matters</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Execution Matters</h1>
+            <p>Your partner in IT Consultancy</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 box">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3zm-1.5 8.25a8.964 8.964 0 01-4.5-1.172m9 0A8.964 8.964 0 0013.5 16.25m4.95 1.172A9.015 9.015 0 0019.5 12.75m-15 0a9.015 9.015 0 001.05 5.672m12.9 0A9.015 9.015 0 0020.25 12.75m-16.5 0a9.015 9.015 0 011.05-5.672M15 9l6-6m-9 6V3.5M12 12.75h.008v.008H12v-.008zm3-3.75h-.008v-.008H15v.008z" />
+                </svg>
+                <h3>Consulting</h3>
+                <p>Expert advice to guide your IT strategy and implementation.</p>
+            </div>
+            <div class="col-md-4 box">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m0-6.5a7.5 7.5 0 11-15 0a7.5 7.5 0 0115 0zM21 21l-6-6" />
+                </svg>
+                <h3>Project Management</h3>
+                <p>Ensuring your IT projects are delivered on time and on budget.</p>
+            </div>
+            <div class="col-md-4 box">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m0-6.5a7.5 7.5 0 11-15 0a7.5 7.5 0 0115 0zM21 21l-6-6" />
+                </svg>
+                <h3>Support</h3>
+                <p>Providing ongoing support to keep your systems running smoothly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Execution Matters is a leading IT consultancy firm dedicated to helping businesses achieve their goals through technology. With a team of experienced professionals, we provide a range of services to meet the unique needs of our clients.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please click the button below to contact us via email.</p>
+        <a href="mailto:info@executionmatters.co" class="btn btn-primary">Email Us</a>
+    </section>
+
+    <footer>
+        <p>EXECUTION MATTERS LLC, 30 N Gould St Ste R Sheridan WY 82801 USA</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
